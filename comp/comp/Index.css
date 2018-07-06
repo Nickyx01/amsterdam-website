@@ -1,0 +1,47 @@
+body{
+  background-image: url("./amsterdam/house.jpg");
+  background-size: 100%;
+}
+
+h1{
+  color: lightblue;
+  text-align: center;
+  font-size: 250px;
+  margin-top: 200px;
+  text-shadow: 2px 2px black;
+  font-style: oblique;
+}
+
+.navbar-brand{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: lightskyblue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
